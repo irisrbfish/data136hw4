@@ -36,7 +36,7 @@
         {% if user.is_authenticated %}
             <p>Welcome, <span class="username">{{ user.username }}</span>! We're glad you're here.</p>
         {% else %}
-            <p><strong>Not logged in</strong>. Welcome, guest! Please <a href="/login">login</a> or <a href="/app/new">sign up</a> to get started.</p>
+            <p>Welcome, guest! Please <a href="/login">login</a> or <a href="/app/new">sign up</a> to get started.</p>
         {% endif %}
     </div>
 
